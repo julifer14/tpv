@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="codi.js"></script>
+		<link href="estil.css" rel="stylesheet">
+		<title>TPV</title>
+		<script type="text/javascript">
+			var text = '';
+			function escriure(numero) {
+				text += numero;
+				document.getElementById("pantalla").innerHTML = text;
+			}
+
+			function borrar() {
+				//Aixo ha de borrar
+				text = '';
+				document.getElementById("pantalla").innerHTML = text;
+			}
+
+			function evaluar() {
+				//Evalua l'expresio i envia el resultat per pantalla
+				resultat = eval(text);
+				text = '';
+				document.getElementById("pantalla").innerHTML = resultat;
+			}
+		</script>
+	</head>
+
+	<body onload="carregarCategories()">
+		<div>
+			<div id="opcionsGen">
+				<button id=="sesio">
+					Sessió
+				</button>
+				<button id="conf">
+					Configuració
+				</button>
+				<button id="comanda">
+					Comanda
+				</button>
+				<button id="caixa">
+					Caixa
+				</button>
+			</div>
+			<div id="catProductes">
+				<!--Butons generats segons el que es rep del servidor-->
+				<button id="refrescos">
+					Refrescos
+				</button>
+				<button id="entrepans">
+					Entrepans
+				</button>
+				<button id="plat">
+					Plat
+				</button>
+			</div>
+			<div id="productes">
+				<!-- Productes segons categoria-->
+				<button id="produc1">
+					<img src="img/camell3.jpg">
+				</button>
+				<button id="produc2"><img src="img/camell3.jpg">
+				</button>
+				<button id="produc3"><img src="img/camell3.jpg">
+				</button>
+				<button id="produc4"><img src="img/camell3.jpg">
+				</button>
+			</div>
+
+			<div id="ticket">
+				<table  id="taulaTicket" border="4" >
+					<thead>
+						<tr>
+							<td> Quantitat </td>
+							<td> Descripció </td>
+							<td> Preu Unitari </td>
+							<td> Preu Total </td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+						<tr>
+							<td> 2 </td>
+							<td> XXXX </td>
+							<td> 1.00 </td>
+							<td> 2.00 </td>
+						</tr>
+
+					</tbody>
+					
+
+				</table>
+				
+
+			</div>
+			<div id="totalTicket">
+				<table border="4" width="100%">
+						<tr>
+							<td> IVA </td>
+							<td> 4% </td>
+							<td> X€ </td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>Total:</td>
+							<td>XX€</td>
+						</tr>
+					</table>
+					</div>
+
+			<div id="calculadora">
+				<!--	<form name="calculadora" id="calculadora">-->
+
+				<div id="butons">
+					<button type="button" id="obrirPar" onclick="escriure('(')">
+						(
+					</button>
+					<button type="button" id="tancarPar" onclick="escriure(')')">
+						)
+					</button>
+					<button type="button" id="perCent" onclick="escriure('%')">
+						%
+					</button>
+					<button type="button" id="div" onclick="escriure('/')">
+						/
+					</button>
+					<br>
+					<button type="button" id="7" onclick="escriure('7')">
+						7
+					</button>
+					<button type="button" id="8" onclick="escriure('8')">
+						8
+					</button>
+					<button type="button" id="9" onclick="escriure('9')">
+						9
+					</button>
+					<button type="button" id="multi" onclick="escriure('*')">
+						*
+					</button>
+					<br>
+					<button type="button" id="4" onclick="escriure('4')">
+						4
+					</button>
+					<button type="button" id="5" onclick="escriure('5')">
+						5
+					</button>
+					<button type="button" id="6" onclick="escriure('6')">
+						6
+					</button>
+					<button type="button" id="menys" onclick="escriure('-')">
+						-
+					</button>
+					<br>
+					<button type="button" id="1" onclick="escriure('1')">
+						1
+					</button>
+					<button type="button" id="2" onclick="escriure('2')">
+						2
+					</button>
+					<button type="button" id="3" onclick="escriure('3')">
+						3
+					</button>
+					<button type="button" id="mes" onclick="escriure('+')">
+						+
+					</button>
+					<br>
+					<button type="button" id="0" onclick="escriure('0')">
+						0
+					</button>
+					<button type="button" id="punt" onclick="escriure('.')">
+						.
+					</button>
+					<button type="button" id="c" onclick="borrar()">
+						c
+					</button>
+					<button type="button" id="igual" onclick="evaluar()">
+						=
+					</button>
+				</div>
+				<!--	</form>-->
+			</div>
+
+			<div id="opcions">
+				<button id="novaComanda">
+					Nova Comanda
+				</button>
+				<button id="generarTicket">
+					Ticket (Imprimir)
+				</button>
+			</div>
+		</div>
+	</body>
+</html>

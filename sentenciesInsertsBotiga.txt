@@ -1,0 +1,33 @@
+INSERT INTO producte VALUE (null,'Fanta',1,2.0,'Llauna de fanta taronja','/img/llaunaFanta.jpg');
+INSERT INTO producte VALUE (null,'Coca-Cola',1,2.0,'Llauna de Coca-cola','/img/cocacola.jpg');
+INSERT INTO producte VALUE (null,'Redbull',1,4.0,'Llauna de Redbull','/img/redbull.jpg');
+INSERT INTO producte VALUE (null,'Aigua',1,1.0,'Ampolla daigua','/img/aigua.jpg');
+
+INSERT INTO producte VALUE (null,'Amanida',2,6.50,'Amanida Verda','/img/ensalada.jpg');
+INSERT INTO producte VALUE (null,'Macarrons Bolonyesa',2,9.30,'Macarrons a la Bolonyesa','/img/macarronesbolonyesa.jpg');
+INSERT INTO producte VALUE (null,'Paella',2,12.0,'Paella de Valencia','/img/paella.jpg');
+INSERT INTO producte VALUE (null,'Amanida Pasta',2,11.40,'Amanida de Pasta','/img/amanidapasta.jpg');
+
+INSERT INTO producte VALUE (null,'Entrepa Tonyina',3,5.0,'Entrepa de tonyina','/img/entrepatonyina.jpg');
+INSERT INTO producte VALUE (null,'Entrepa Bacon amb Formatge',3,3.50,'Entrepa Bacon amb Formatge','/img/baconformatge.jpg');
+
+
+INSERT INTO producte VALUE (null,'Hamburguesa formatge',4,2.0,'Hamburguesa de formatge','/img/hamqueso.jpg');
+INSERT INTO producte VALUE (null,'Hamburguesa doble formatge',4,4.0,'Hamburguesa doble de formatge','/img/hamdoblequeso.jpg');
+INSERT INTO producte VALUE (null,'Hamburguesa Torre de Pisa',4,6.25,'Hamburguesa Torre de Pisa','/img/hamtorredepisa.jpg');
+INSERT INTO producte VALUE (null,'Croissant',5,1.25,'Croissant','/img/croissant.jpg');
+INSERT INTO producte VALUE (null,'Napolitana Xoco',5,1.60,'Napolitana de Xocolata','/img/napolitana.jpg');
+INSERT INTO producte VALUE (null,'Berlina Glas',5,0.60,'Berlina Glas','/img/berlinaGlas.jpg');
+INSERT INTO producte VALUE (null,'Berlina Xoco',5,0.80,'Berlina Xoco','/img/berlinaxoco.jpg');
+INSERT INTO producte VALUE (null,'Palmera Xoco',5,0.90,'Palmera Xoco','/img/palmeraxoco.jpg');
+
+INSERT INTO producte VALUE (null,'Cafe',6,1.25,'Cafe','/img/cafesolo.jpg');
+INSERT INTO producte VALUE (null,'Cafe amb Llet',6,1.55,'Cafe amb llet','/img/cafellet.jpg');
+INSERT INTO producte VALUE (null,'Cafe Cortado',6,1.50,'Cafe Cortado','/img/cafecortado.jpg');
+
+INSERT INTO producte VALUE (null,'Cafe Irlandes',6,2.25,'Cafe Irlandes','/img/cafeirlandes.jpg');
+INSERT INTO producte VALUE (null,'Capuchino',6,3.00,'Capuchino','/img/capuchino.jpg');
+INSERT INTO producte VALUE (null,'Te Verd',7,4.25,'Te Verd','/img/teverd.jpg');
+INSERT INTO producte VALUE (null,'Te Vermell',7,4.25,'Te Vermell','/img/tevermell.jpg');
+INSERT INTO producte VALUE (null,'Camamilla',7,4.15,'Camamilla','/img/camamilla.jpg');
+INSERT INTO producte VALUE (null,'Tila',7,4.15,'Tila','/img/tila.jpg');

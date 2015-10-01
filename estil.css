@@ -1,0 +1,111 @@
+/*----------Calculadora-----------*/
+#butons > button{
+    
+    width: 65px;
+    height: 50px;
+    background-color: white;
+    padding-left: 2px;
+    margin-left: 2px;
+    border-radius: 15px;
+}
+
+ #calculadora > #pantalla{
+    width: 265px;
+    height: 50px;
+    margin-left: 7px;
+   font-size: 20px;
+    border-radius: 15px;
+    background-color: white;
+    resize: none;
+}
+
+/*--------------------*/
+
+#opcionsGen{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 55px;
+	width: 990px;
+	padding-top: 5px;
+	background-color: orange;
+	text-align: right;
+	padding-right: 10px;
+}
+#catProductes > button{
+	display: block;
+	height: 50px;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+#catProductes{
+	display:inline-block;
+	height: 500px;
+	width: 120px;
+	background-color: lightblue;
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	
+}
+#productes>button>img{
+	width: 100px;
+	height: 100px;
+}
+#productes{
+	position: absolute;
+	left: 120px;
+	top: 60px;
+	height: 500px;
+	width: 880px; 
+	background-color: lightgrey;
+	display: inline-block;
+}
+#ticket{
+	overflow-y: auto;
+	position: absolute;
+	left: 1000px;
+	top: 0px;
+	display:inline-block;
+	height: 300px;
+	width:290px;
+	background-color: peru;
+}
+#totalTicket{
+	position: absolute;
+	left: 1000px;
+	top: 300px;
+	background-color: peru;
+	width:290px;
+}
+#calculadora{
+	position: absolute;
+	left: 1000px;
+	top: 360px;
+	background-image: url(./img/fondo.jpg);
+    width: 287px;
+    height: 255px;
+    padding-top: 6px;
+    padding-left: 3px;
+    display: inline-block;
+	
+}
+#opcions{
+	position: absolute;
+	left: 0px;
+	top: 560px;
+	height: 60px;
+	width:980px;
+	background-color: lightgreen;
+	padding-top: 5px;
+	text-align: right;
+	padding-right: 10px;
+}
+#opcionsGen>button, #opcions>button{
+	width: 150px;
+	height: 50px;
+	margin-left: 10px;
+	border-radius:5px;
+}
+
